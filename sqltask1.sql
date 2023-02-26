@@ -1,0 +1,25 @@
+-- create database Employeetask
+-- create table employeedetails(
+-- Emp_Id int not null primary key,
+-- Emp_name varchar(30) not null,
+-- Job_name varchar(30) not null,
+-- Manager_id int not null,
+-- Hire_date varchar(30) not null,
+-- Salary int not null,
+-- Dep_id int not null
+-- )
+
+-- insert into employeedetails(Emp_id,Emp_name,Job_name,Manager_id,Hire_date,Salary,Dep_id)
+-- values(101,"A.Lavanya","President","5678","2023-5-23","60000","1001");
+-- values(102,"A.Radhika","Software","1234","2023-3-22","30000","1090");
+-- values(103,"L.Thanuja","Hardware","1625","2023-6-20","50000","1035");
+-- values(104,"T.Navya","Meanstack","1945","2023-7-22","70000","1076");
+-- values(105,"V.Balu","AssiantManager","1035","2023-9-21","90000","1089");
+-- values(106,"G.Jithendra","Manager","5197","2023-10-20","100000","1043");
+-- values(107,"A.Vijay","HR","5783","2022-5-23","80000","1071");
+-- values(108,"G.Tarun","CEO","5902","2023-12-21","100000","1067");
+-- values(109,"A.Suresh","Employe","5658","2023-7-22","50000","1009");
+-- values(110,"A.Sai","testing developer","5486","2023-2-12","70000","1356");
+
+-- select Salary from employeedetails;
+-- select Job_name from employeedetails;
